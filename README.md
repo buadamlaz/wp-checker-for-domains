@@ -15,11 +15,11 @@ The script can optionally retrieve and report the WordPress version if specified
 
 **Example Without Version Information:**
 ```bash 
-  python wp-checker.py -d domain_list.txt -o scan_result.csv
+  python wp-checker.py -d domains.txt -o scan_result.csv
 ```
 **Example With Version Information:**
 ```bash 
-  python wp-checker.py -d domain_list.txt -o scan_result.csv --version
+  python wp-checker.py -d domains.txt -o scan_result.csv --version
 ```
 
 ## Required Libraries:
